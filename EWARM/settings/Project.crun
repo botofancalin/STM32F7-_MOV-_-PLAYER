@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<crun>
+  <version>1</version>
+  <filter_entries>
+    <filter index="0">
+      <type>Access out of bounds</type>
+      <start_file>C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\inc\c\DLib_Product_string.h</start_file>
+      <end_file>C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\inc\c\DLib_Product_string.h</end_file>
+      <action_debugger>1</action_debugger>
+      <action_log>1</action_log>
+    </filter>
+    <filter index="1">
+      <type>Access out of bounds</type>
+      <start_file>D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_ltdc.c</start_file>
+      <end_file>D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_ltdc.c</end_file>
+      <action_debugger>1</action_debugger>
+      <action_log>1</action_log>
+    </filter>
+    <filter index="2">
+      <type>Access out of bounds</type>
+      <start_file>D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.c</start_file>
+      <end_file>D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.c</end_file>
+      <action_debugger>1</action_debugger>
+      <action_log>1</action_log>
+    </filter>
+    <filter index="3">
+      <type>Access out of bounds</type>
+      <start_file>D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.c</start_file>
+      <start_line>361</start_line>
+      <start_col>3</start_col>
+      <end_file>D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.c</end_file>
+      <end_line>361</end_line>
+      <end_col>40</end_col>
+      <action_debugger>1</action_debugger>
+      <action_log>1</action_log>
+    </filter>
+    <filter index="4">
+      <type>Integer conversion failure</type>
+      <start_file>C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\CMSIS\Include\core_cm7.h</start_file>
+      <end_file>C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\CMSIS\Include\core_cm7.h</end_file>
+      <action_debugger>1</action_debugger>
+      <action_log>1</action_log>
+    </filter>
+    <filter index="5">
+      <type>Unsigned integer overflow</type>
+      <start_file>C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\CMSIS\Include\core_cm7.h</start_file>
+      <end_file>C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\CMSIS\Include\core_cm7.h</end_file>
+      <action_debugger>1</action_debugger>
+      <action_log>1</action_log>
+    </filter>
+    <filter index="6" type="default">
+      <type>*</type>
+      <start_file>*</start_file>
+      <end_file>*</end_file>
+      <action_debugger>0</action_debugger>
+      <action_log>1</action_log>
+    </filter>
+  </filter_entries>
+</crun>
+
+

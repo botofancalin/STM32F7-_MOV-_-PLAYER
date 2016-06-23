@@ -1,0 +1,1431 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.2.10312/W32 for ARM                14/Jun/2016  21:39:27
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Exe\Project.out
+#    Map file     =  
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\List\Project.map
+#    Command line =  
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\decode.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\diskio.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\ff.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\ff_gen_drv.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\ft5336.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jaricom.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jcapimin.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jcapistd.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jcarith.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jccoefct.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jccolor.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jcdctmgr.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jchuff.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jcinit.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jcmainct.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jcmarker.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jcmaster.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jcomapi.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jcparam.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jcprepct.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jcsample.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jctrans.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jdapimin.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jdapistd.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jdarith.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jdatadst.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jdatasrc.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jdcoefct.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jdcolor.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jddctmgr.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jdhuff.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jdinput.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jdmainct.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jdmarker.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jdmaster.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jdmerge.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jdpostct.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jdsample.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jdtrans.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jerror.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jfdctflt.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jfdctfst.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jfdctint.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jidctflt.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jidctfst.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jidctint.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jmemmgr.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jmemnobs.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jquant1.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jquant2.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\jutils.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\main.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\MPEG.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\my_waveplayer.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\sd_diskio.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\startup_stm32f746xx.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32746g_discovery.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32746g_discovery_audio.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32746g_discovery_lcd.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32746g_discovery_sd.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32746g_discovery_sdram.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_cortex.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_dma.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_dma2d.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_dma_ex.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_flash.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_flash_ex.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_gpio.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_i2c.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_i2c_ex.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_i2s.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_ltdc.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_msp.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_pwr.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_pwr_ex.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_rcc.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_rcc_ex.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_sai.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_sai_ex.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_sd.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_sdram.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_tim.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_tim_ex.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_uart.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_hal_usart.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_it.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_ll_fmc.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\stm32f7xx_ll_sdmmc.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\system_stm32f7xx.o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj\wm8994.o
+#        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Exe\Project.out
+#        --map
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\List\Project.map
+#        --config
+#        D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\stm32f746xx_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --enable_stack_usage
+#
+###############################################################################
+
+*******************************************************************************
+*** MESSAGES
+***
+
+Warning[Ls016]: [stack usage analysis] the program contains at least one
+          indirect call. Example: from "disk_write". A complete list of such
+          functions is in the map file.
+Warning[Ls017]: [stack usage analysis] the program contains at least one
+          instance of recursion for which  stack usage analysis has not been
+          able to calculate a maximum stack depth. One function involved is
+          "collectAtoms". A complete list of all recursion nests is in the map
+          file.
+
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__Heap_Handler                = DLMalloc
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x080fffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2004ffff] { rw, block CSTACK, block HEAP };
+
+  Section             Kind        Address    Size  Object
+  -------             ----        -------    ----  ------
+"A1":                                       0x1c8
+  .intvec             ro code  0x08000000   0x1c8  startup_stm32f746xx.o [1]
+                             - 0x080001c8   0x1c8
+
+"P1":                                      0xf019
+  .text               ro code  0x080001c8  0x1d2a  ff.o [1]
+  .text               ro code  0x08001ef4    0xfc  diskio.o [1]
+  .rodata             const    0x08001ff0  0x1ab8  stm32746g_discovery_lcd.o [1]
+  .text               ro code  0x08003aa8  0x14f0  dlmalloc.o [3]
+  .text               ro code  0x08004f98     0x6  abort.o [3]
+  .text               ro code  0x08004fa0    0x2c  xgetmemchunk.o [3]
+  .text               ro code  0x08004fcc    0x14  exit.o [6]
+  .text               ro code  0x08004fe0  0x14e0  MPEG.o [1]
+  .text               ro code  0x080064c0    0x66  ABImemset.o [5]
+  .text               ro code  0x08006528    0x24  printf.o [3]
+  .text               ro code  0x0800654c    0x28  strncmp.o [3]
+  .text               ro code  0x08006574    0x76  ABImemcpy_unaligned.o [5]
+  .text               ro code  0x080065ea     0x8  abs.o [3]
+  .text               ro code  0x080065f4   0x1c8  stm32f7xx_hal_tim.o [1]
+  .text               ro code  0x080067bc   0x4c0  stm32746g_discovery_audio.o [1]
+  .text               ro code  0x08006c7c   0x19e  my_waveplayer.o [1]
+  .text               ro code  0x08006e1c    0x88  stm32f7xx_hal.o [1]
+  .text               ro code  0x08006ea4   0x7c4  xprintfsmall.o [3]
+  .text               ro code  0x08007668   0x3d0  stm32f7xx_hal_sai.o [1]
+  .text               ro code  0x08007a38   0x268  stm32f7xx_hal_gpio.o [1]
+  .text               ro code  0x08007ca0   0x3f0  stm32f7xx_hal_dma.o [1]
+  .text               ro code  0x08008090   0x13c  stm32f7xx_hal_cortex.o [1]
+  .text               ro code  0x080081cc   0xba4  stm32f7xx_hal_rcc_ex.o [1]
+  .text               ro code  0x08008d70   0x8ac  stm32f7xx_hal_rcc.o [1]
+  .text               ro code  0x0800961c    0x20  xmbtowc.o [3]
+  .text               ro code  0x0800963c    0x16  strchr.o [5]
+  .text               ro code  0x08009654    0x36  strlen.o [5]
+  .text               ro code  0x0800968c    0x58  memchr.o [5]
+  .text               ro code  0x080096e4     0xa  xmbcurmax.o [3]
+  .text               ro code  0x080096ee    0x1a  xwctomb.o [3]
+  .text               ro code  0x08009708    0x8c  stm32f7xx_hal_sai_ex.o [1]
+  .text               ro code  0x08009794    0x14  setlocale.o [3]
+  .text               ro code  0x080097a8    0x60  xencoding_sb.o [3]
+  .text               ro code  0x08009808     0x2  xtls.o [3]
+  .text               ro code  0x0800980c  0x1440  stm32f7xx_hal_sd.o [1]
+  .text               ro code  0x0800ac4c    0xce  stm32f7xx_ll_sdmmc.o [1]
+  .text               ro code  0x0800ad1c   0xd94  wm8994.o [1]
+  .text               ro code  0x0800bab0   0x338  stm32746g_discovery.o [1]
+  .text               ro code  0x0800bde8   0x74c  stm32f7xx_hal_i2c.o [1]
+  .text               ro code  0x0800c534   0x706  stm32f7xx_hal_uart.o [1]
+  .text               ro code  0x0800cc3c    0xa4  stm32f7xx_hal_msp.o [1]
+  .text               ro code  0x0800cce0   0x558  stm32746g_discovery_lcd.o [1]
+  .text               ro code  0x0800d238   0x4f8  stm32f7xx_hal_ltdc.o [1]
+  .text               ro code  0x0800d730   0x394  stm32746g_discovery_sdram.o [1]
+  .text               ro code  0x0800dac4   0x3e2  stm32f7xx_hal_dma2d.o [1]
+  .text               ro code  0x0800dea8    0xac  stm32f7xx_hal_sdram.o [1]
+  .text               ro code  0x0800df54   0x178  stm32f7xx_ll_fmc.o [1]
+  .text               ro code  0x0800e0cc   0x360  stm32746g_discovery_sd.o [1]
+  .text               ro code  0x0800e42c   0x2a4  main.o [1]
+  .text               ro code  0x0800e6d0    0x70  ff_gen_drv.o [1]
+  .text               ro code  0x0800e740    0x88  stm32f7xx_hal_pwr_ex.o [1]
+  .text               ro code  0x0800e7c8   0x124  sd_diskio.o [1]
+  .rodata             const    0x0800e8ec   0x100  MPEG.o [1]
+  .rodata             const    0x0800e9ec    0x80  ff.o [1]
+  .text               ro code  0x0800ea6c    0x6c  system_stm32f7xx.o [1]
+  .text               ro code  0x0800ead8    0x40  zero_init3.o [5]
+  .rodata             const    0x0800eb18    0x3c  MPEG.o [1]
+  .text               ro code  0x0800eb54    0x38  stm32f7xx_it.o [1]
+  .text               ro code  0x0800eb8c    0x38  packbits_init_single.o [5]
+  .rodata             const    0x0800ebc4    0x34  MPEG.o [1]
+  .rodata             const    0x0800ebf8    0x2c  MPEG.o [1]
+  .text               ro code  0x0800ec24    0x28  data_init.o [5]
+  .rodata             const    0x0800ec4c    0x24  MPEG.o [1]
+  .text               ro code  0x0800ec70    0x22  fpinit_M.o [4]
+  .iar.init_table     const    0x0800ec94    0x20  - Linker created -
+  .rodata             const    0x0800ecb4    0x1c  MPEG.o [1]
+  .rodata             const    0x0800ecd0    0x1c  MPEG.o [1]
+  .rodata             const    0x0800ecec    0x1c  MPEG.o [1]
+  .rodata             const    0x0800ed08    0x1c  MPEG.o [1]
+  .rodata             const    0x0800ed24    0x1c  MPEG.o [1]
+  .text               ro code  0x0800ed40    0x1a  cmain.o [5]
+  .text               ro code  0x0800ed5a     0x4  low_level_init.o [3]
+  .text               ro code  0x0800ed5e     0x4  exit.o [3]
+  .text               ro code  0x0800ed64     0xa  cexit.o [5]
+  .rodata             const    0x0800ed70    0x18  MPEG.o [1]
+  .rodata             const    0x0800ed88    0x18  MPEG.o [1]
+  .rodata             const    0x0800eda0    0x18  MPEG.o [1]
+  .text               ro code  0x0800edb8    0x16  xprout.o [3]
+  .text               ro code  0x0800edd0     0xc  putchar.o [3]
+  .rodata             const    0x0800eddc    0x14  MPEG.o [1]
+  .rodata             const    0x0800edf0    0x14  MPEG.o [1]
+  .rodata             const    0x0800ee04    0x14  MPEG.o [1]
+  .rodata             const    0x0800ee18    0x14  MPEG.o [1]
+  .rodata             const    0x0800ee2c    0x14  sd_diskio.o [1]
+  .rodata             const    0x0800ee40    0x10  ff.o [1]
+  .rodata             const    0x0800ee50    0x10  main.o [1]
+  .rodata             const    0x0800ee60    0x10  main.o [1]
+  .rodata             const    0x0800ee70    0x10  MPEG.o [1]
+  .rodata             const    0x0800ee80    0x10  MPEG.o [1]
+  .rodata             const    0x0800ee90    0x10  MPEG.o [1]
+  .rodata             const    0x0800eea0    0x10  MPEG.o [1]
+  .rodata             const    0x0800eeb0    0x10  MPEG.o [1]
+  .rodata             const    0x0800eec0    0x10  MPEG.o [1]
+  .rodata             const    0x0800eed0    0x10  MPEG.o [1]
+  .rodata             const    0x0800eee0    0x10  stm32f7xx_hal_rcc.o [1]
+  .text               ro code  0x0800eef0    0x10  startup_stm32f746xx.o [1]
+  .rodata             const    0x0800ef00     0xc  main.o [1]
+  .rodata             const    0x0800ef0c     0xc  main.o [1]
+  .rodata             const    0x0800ef18     0xc  MPEG.o [1]
+  .rodata             const    0x0800ef24     0xc  MPEG.o [1]
+  .rodata             const    0x0800ef30     0xc  MPEG.o [1]
+  .rodata             const    0x0800ef3c     0xc  MPEG.o [1]
+  .rodata             const    0x0800ef48     0xc  MPEG.o [1]
+  .rodata             const    0x0800ef54     0xc  MPEG.o [1]
+  .rodata             const    0x0800ef60     0xc  MPEG.o [1]
+  .rodata             const    0x0800ef6c     0xc  MPEG.o [1]
+  .rodata             const    0x0800ef78     0xc  MPEG.o [1]
+  .rodata             const    0x0800ef84     0xc  MPEG.o [1]
+  .rodata             const    0x0800ef90     0xc  MPEG.o [1]
+  .text               ro code  0x0800ef9c     0xc  cstartup_M.o [5]
+  .rodata             const    0x0800efa8     0x8  main.o [1]
+  .rodata             const    0x0800efb0     0x8  MPEG.o [1]
+  .rodata             const    0x0800efb8     0x8  MPEG.o [1]
+  .rodata             const    0x0800efc0     0x8  MPEG.o [1]
+  .rodata             const    0x0800efc8     0x8  MPEG.o [1]
+  .rodata             const    0x0800efd0     0x8  stm32f7xx_hal_dma.o [1]
+  .text               ro code  0x0800efd8     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800efdc     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800efe0     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800efe4     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800efe8     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800efec     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800eff0     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800eff4     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800eff8     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800effc     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f000     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f004     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f008     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f00c     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f010     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f014     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f018     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f01c     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f020     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f024     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f028     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f02c     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f030     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f034     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f038     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f03c     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f040     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f044     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f048     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f04c     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f050     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f054     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f058     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f05c     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f060     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f064     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f068     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f06c     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f070     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f074     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f078     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f07c     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f080     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f084     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f088     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f08c     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f090     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f094     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f098     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f09c     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0a0     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0a4     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0a8     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0ac     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0b0     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0b4     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0b8     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0bc     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0c0     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0c4     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0c8     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0cc     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0d0     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0d4     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0d8     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0dc     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0e0     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0e4     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0e8     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0ec     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0f0     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0f4     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0f8     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f0fc     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f100     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f104     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f108     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f10c     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f110     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f114     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f118     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f11c     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f120     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f124     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f128     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f12c     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f130     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f134     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f138     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f13c     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f140     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f144     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f148     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f14c     0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x0800f150     0x4  startup_stm32f746xx.o [1]
+  .rodata             const    0x0800f154     0x0  zero_init3.o [5]
+  .rodata             const    0x0800f154     0x0  packbits_init_single.o [5]
+  Initializer bytes   const    0x0800f154    0x8d  <for P2-1>
+                             - 0x0800f1e1  0xf019
+
+"P2", part 1 of 3:                          0x12a
+  P2-1                         0x20000000   0x12a  <Init block>
+    .data             inited   0x20000000    0x34  MPEG.o [1]
+    .data             inited   0x20000034     0x4  my_waveplayer.o [1]
+    .data             inited   0x20000038     0x8  stm32746g_discovery_lcd.o [1]
+    .data             inited   0x20000040     0x4  system_stm32f7xx.o [1]
+    .data             inited   0x20000044    0x30  wm8994.o [1]
+    .data             inited   0x20000074    0x40  xfiles.o [3]
+    __DLIB_PERTHREAD  inited   0x200000b4    0x74  setlocale.o [3]
+    .data             inited   0x20000128     0x1  sd_diskio.o [1]
+    .data             inited   0x20000129     0x1  stm32746g_discovery_sdram.o [1]
+                             - 0x2000012a   0x12a
+
+"P2", part 2 of 3:                         0xf000
+  CSTACK                       0x20000130  0x6000  <Block>
+    CSTACK            uninit   0x20000130  0x6000  <Block tail>
+  HEAP                         0x20006130  0x9000  <Block>
+    HEAP              uninit   0x20006130  0x9000  <Block tail>
+                             - 0x2000f130  0xf000
+
+"P2", part 3 of 3:                         0xc9ac
+  .bss                zero     0x2000f130  0xa000  MPEG.o [1]
+  .bss                zero     0x20019130   0x234  MPEG.o [1]
+  .bss                zero     0x20019364   0x234  MPEG.o [1]
+  .bss                zero     0x20019598   0x230  main.o [1]
+  .bss                zero     0x200197c8   0x230  MPEG.o [1]
+  .bss                zero     0x200199f8   0x230  MPEG.o [1]
+  .bss                zero     0x20019c28   0x230  MPEG.o [1]
+  .bss                zero     0x20019e58   0x230  MPEG.o [1]
+  .bss                zero     0x2001a088   0x230  MPEG.o [1]
+  .bss                zero     0x2001a2b8   0x230  MPEG.o [1]
+  .bss                zero     0x2001a4e8   0x22c  main.o [1]
+  .bss                zero     0x2001a714   0x22c  main.o [1]
+  .bss                zero     0x2001a940   0x22c  main.o [1]
+  .bss                zero     0x2001ab6c   0x22c  MPEG.o [1]
+  .bss                zero     0x2001ad98   0x22c  MPEG.o [1]
+  .bss                zero     0x2001afc4   0x200  MPEG.o [1]
+  .bss                zero     0x2001b1c4   0x1d8  dlmalloc.o [3]
+  .bss                zero     0x2001b39c    0xa8  stm32746g_discovery_lcd.o [1]
+  .bss                zero     0x2001b444    0x84  stm32746g_discovery_audio.o [1]
+  .bss                zero     0x2001b4c8    0x84  stm32746g_discovery_audio.o [1]
+  .bss                zero     0x2001b54c    0x84  stm32746g_discovery_lcd.o [1]
+  .bss                zero     0x2001b5d0    0x70  main.o [1]
+  .bss                zero     0x2001b640    0x60  MPEG.o [1]
+  .bss                zero     0x2001b6a0    0x60  stm32746g_discovery_sd.o [1]
+  .bss                zero     0x2001b700    0x58  stm32746g_discovery_audio.o [1]
+  .bss                zero     0x2001b758    0x58  stm32746g_discovery_sd.o [1]
+  .bss                zero     0x2001b7b0    0x58  stm32746g_discovery_sd.o [1]
+  .bss                zero     0x2001b808    0x58  stm32746g_discovery_sd.o [1]
+  .bss                zero     0x2001b860    0x58  stm32746g_discovery_sdram.o [1]
+  .bss                zero     0x2001b8b8    0x50  xfiles.o [3]
+  .bss                zero     0x2001b908    0x40  stm32746g_discovery_lcd.o [1]
+  .bss                zero     0x2001b948    0x3c  stm32746g_discovery.o [1]
+  .bss                zero     0x2001b984    0x34  stm32746g_discovery_sdram.o [1]
+  .bss                zero     0x2001b9b8    0x28  MPEG.o [1]
+  .bss                zero     0x2001b9e0    0x20  MPEG.o [1]
+  .bss                zero     0x2001ba00    0x1c  MPEG.o [1]
+  .bss                zero     0x2001ba1c    0x1c  stm32746g_discovery_sdram.o [1]
+  .bss                zero     0x2001ba38    0x18  ff.o [1]
+  .bss                zero     0x2001ba50    0x18  stm32746g_discovery_lcd.o [1]
+  .bss                zero     0x2001ba68    0x18  dlmalloc.o [3]
+  .bss                zero     0x2001ba80    0x10  stm32746g_discovery_sdram.o [1]
+  .bss                zero     0x2001ba90     0xc  ff_gen_drv.o [1]
+  .bss                zero     0x2001ba9c     0x8  my_waveplayer.o [1]
+  .bss                zero     0x2001baa4     0x4  ff.o [1]
+  .bss                zero     0x2001baa8     0x4  main.o [1]
+  .bss                zero     0x2001baac     0x4  main.o [1]
+  .bss                zero     0x2001bab0     0x4  MPEG.o [1]
+  .bss                zero     0x2001bab4     0x4  MPEG.o [1]
+  .bss                zero     0x2001bab8     0x4  MPEG.o [1]
+  .bss                zero     0x2001babc     0x4  MPEG.o [1]
+  .bss                zero     0x2001bac0     0x4  stm32746g_discovery_audio.o [1]
+  .bss                zero     0x2001bac4     0x4  stm32746g_discovery_lcd.o [1]
+  .bss                zero     0x2001bac8     0x4  stm32f7xx_hal.o [1]
+  .bss                zero     0x2001bacc     0x4  wm8994.o [1]
+  .bss                zero     0x2001bad0     0x4  wm8994.o [1]
+  .bss                zero     0x2001bad4     0x4  xgetmemchunk.o [3]
+  .bss                zero     0x2001bad8     0x2  ff.o [1]
+  .bss                zero     0x2001bada     0x1  my_waveplayer.o [1]
+                             - 0x2001badb  0xc9ab
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xc9ab:
+          0x2000f130  0xc9ab
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x8d (47% of destination):
+          0x0800f154    0x8d
+    1 destination range, total size 0x12a:
+          0x20000000   0x12a
+
+
+*******************************************************************************
+*** STACK USAGE
+***
+
+  Call Graph Root Category  Max Use  Total Use
+  ------------------------  -------  ---------
+  Program entry              14 008     14 008
+  Uncalled function             288      3 176
+
+
+Program entry
+  "__iar_program_start": 0x0800ef9d
+
+  Maximum call chain                            *?* 14 008 bytes
+    (** call graph contains recursive functions (example: "collectAtoms")
+                            indirect calls (example: "disk_write") **)
+
+    "__iar_program_start"                                0
+    "__cmain"                                            0
+    "main"                                               8
+    "Play_MOV"                                       5 592
+    "Play_WAV"                                       8 216
+    "f_lseek"                                           64
+    "create_chain" in ff.o [1]                          32
+    "get_fat"                                           32
+    "move_window" in ff.o [1]                           16
+    "sync_window" in ff.o [1]                           24
+    "disk_write"                                        24
+
+Uncalled function
+  "SD_initialize": 0x0800e7c9
+
+  Maximum call chain                               212 bytes
+
+    "SD_initialize"                                  8
+    "BSP_SD_Init"                                    8
+    "HAL_SD_WideBusOperation_Config"                56
+    "SD_WideBus_Enable" in stm32f7xx_hal_sd.o [1]
+                                                    40
+    "SD_FindSCR" in stm32f7xx_hal_sd.o [1]          72
+    "SD_CmdResp1Error" in stm32f7xx_hal_sd.o [1]
+                                                    24
+    "SDMMC_GetResponse"                              4
+
+Uncalled function
+  "SD_ioctl": 0x0800e87d
+
+  Maximum call chain                               144 bytes
+
+    "SD_ioctl"                                     112
+    "BSP_SD_GetCardInfo"                             8
+    "HAL_SD_Get_CardInfo"                           24
+
+Uncalled function
+  "SD_read": 0x0800e811
+
+  Maximum call chain                               212 bytes
+
+    "SD_read"                                       32
+    "BSP_SD_ReadBlocks"                             32
+    "HAL_SD_ReadBlocks"                             88
+    "HAL_SD_StopTransfer"                           32
+    "SD_CmdResp1Error" in stm32f7xx_hal_sd.o [1]
+                                                    24
+    "SDMMC_GetResponse"                              4
+
+Uncalled function
+  "SD_status": 0x0800e7ed
+
+  Maximum call chain                               116 bytes
+
+    "SD_status"                                      8
+    "BSP_SD_GetStatus"                               8
+    "HAL_SD_GetStatus"                              16
+    "SD_GetState" in stm32f7xx_hal_sd.o [1]         16
+    "SD_SendStatus" in stm32f7xx_hal_sd.o [1]       40
+    "SD_CmdResp1Error" in stm32f7xx_hal_sd.o [1]
+                                                    24
+    "SDMMC_GetResponse"                              4
+
+Uncalled function
+  "SD_write": 0x0800e847
+
+  Maximum call chain                               220 bytes
+
+    "SD_write"                                      32
+    "BSP_SD_WriteBlocks"                            32
+    "HAL_SD_WriteBlocks"                            96
+    "HAL_SD_StopTransfer"                           32
+    "SD_CmdResp1Error" in stm32f7xx_hal_sd.o [1]
+                                                    24
+    "SDMMC_GetResponse"                              4
+
+Uncalled function
+  "SAI_DMAError" in stm32f7xx_hal_sai.o [1]: 0x08007a19
+
+  Maximum call chain                                40 bytes
+
+    "SAI_DMAError" in stm32f7xx_hal_sai.o [1]       16
+    "HAL_SAI_DMAStop"                                8
+    "SAI_Disable" in stm32f7xx_hal_sai.o [1]        16
+    "HAL_GetTick"                                    0
+
+Uncalled function
+  "SAI_DMATxCplt" in stm32f7xx_hal_sai.o [1]: 0x080079c5
+
+  Maximum call chain                                24 bytes
+
+    "SAI_DMATxCplt" in stm32f7xx_hal_sai.o [1]      16
+    "HAL_SAI_TxCpltCallback"                         8
+    "BSP_AUDIO_OUT_TransferComplete_CallBack"        0
+
+Uncalled function
+  "SAI_DMATxHalfCplt" in stm32f7xx_hal_sai.o [1]: 0x08007a09
+
+  Maximum call chain                                24 bytes
+
+    "SAI_DMATxHalfCplt" in stm32f7xx_hal_sai.o [1]
+                                                    16
+    "HAL_SAI_TxHalfCpltCallback"                     8
+    "BSP_AUDIO_OUT_HalfTransfer_CallBack"            0
+
+Uncalled function
+  "BusFault_Handler": 0x0800eb5b
+
+  Maximum call chain                                 0 bytes
+
+    "BusFault_Handler"                               0
+
+Uncalled function
+  "DMA2_Stream4_IRQHandler": 0x0800eb6d
+
+  Maximum call chain                            *?* 24 bytes
+    (** call graph contains indirect calls (example: "HAL_DMA_IRQHandler") **)
+
+    "DMA2_Stream4_IRQHandler"                        8
+    "HAL_DMA_IRQHandler"                            16
+
+Uncalled function
+  "DMA2_Stream7_IRQHandler": 0x0800eb79
+
+  Maximum call chain                            *?* 24 bytes
+    (** call graph contains indirect calls (example: "HAL_DMA_IRQHandler") **)
+
+    "DMA2_Stream7_IRQHandler"                        8
+    "HAL_DMA_IRQHandler"                            16
+
+Uncalled function
+  "DebugMon_Handler": 0x0800eb61
+
+  Maximum call chain                                 0 bytes
+
+    "DebugMon_Handler"                               0
+
+Uncalled function
+  "HardFault_Handler": 0x0800eb57
+
+  Maximum call chain                                 0 bytes
+
+    "HardFault_Handler"                              0
+
+Uncalled function
+  "MemManage_Handler": 0x0800eb59
+
+  Maximum call chain                                 0 bytes
+
+    "MemManage_Handler"                              0
+
+Uncalled function
+  "NMI_Handler": 0x0800eb55
+
+  Maximum call chain                                 0 bytes
+
+    "NMI_Handler"                                    0
+
+Uncalled function
+  "PendSV_Handler": 0x0800eb63
+
+  Maximum call chain                                 0 bytes
+
+    "PendSV_Handler"                                 0
+
+Uncalled function
+  "SVC_Handler": 0x0800eb5f
+
+  Maximum call chain                                 0 bytes
+
+    "SVC_Handler"                                    0
+
+Uncalled function
+  "SysTick_Handler": 0x0800eb65
+
+  Maximum call chain                                 8 bytes
+
+    "SysTick_Handler"                                8
+    "HAL_IncTick"                                    0
+
+Uncalled function
+  "UsageFault_Handler": 0x0800eb5d
+
+  Maximum call chain                                 0 bytes
+
+    "UsageFault_Handler"                             0
+
+Uncalled function
+  "SystemInit": 0x0800ea6d
+
+  Maximum call chain                                 0 bytes
+
+    "SystemInit"                                     0
+
+Uncalled function
+  "wm8994_DeInit": 0x0800b48f
+
+  Maximum call chain                                 8 bytes
+
+    "wm8994_DeInit"                                  8
+    "AUDIO_IO_DeInit"                                0
+
+Uncalled function
+  "wm8994_Init": 0x0800ad1d
+
+  Maximum call chain                               288 bytes
+
+    "wm8994_Init"                                   40
+    "wm8994_SetVolume"                              24
+    "wm8994_SetMute"                                16
+    "CODEC_IO_Write" in wm8994.o [1]                24
+    "AUDIO_IO_Write"                                32
+    "I2Cx_WriteMultiple" in stm32746g_discovery.o [1]
+                                                    48
+    "HAL_I2C_Mem_Write"                             40
+    "I2C_RequestMemoryWrite" in stm32f7xx_hal_i2c.o [1]
+                                                    32
+    "I2C_WaitOnTXISFlagUntilTimeout" in stm32f7xx_hal_i2c.o [1]
+                                                    16
+    "I2C_IsAcknowledgeFailed" in stm32f7xx_hal_i2c.o [1]
+                                                    16
+    "HAL_GetTick"                                    0
+
+Uncalled function
+  "wm8994_Pause": 0x0800b4c7
+
+  Maximum call chain                               240 bytes
+
+    "wm8994_Pause"                                  16
+    "wm8994_SetMute"                                16
+    "CODEC_IO_Write" in wm8994.o [1]                24
+    "AUDIO_IO_Write"                                32
+    "I2Cx_WriteMultiple" in stm32746g_discovery.o [1]
+                                                    48
+    "HAL_I2C_Mem_Write"                             40
+    "I2C_RequestMemoryWrite" in stm32f7xx_hal_i2c.o [1]
+                                                    32
+    "I2C_WaitOnTXISFlagUntilTimeout" in stm32f7xx_hal_i2c.o [1]
+                                                    16
+    "I2C_IsAcknowledgeFailed" in stm32f7xx_hal_i2c.o [1]
+                                                    16
+    "HAL_GetTick"                                    0
+
+Uncalled function
+  "wm8994_Play": 0x0800b4ab
+
+  Maximum call chain                               248 bytes
+
+    "wm8994_Play"                                   24
+    "wm8994_SetMute"                                16
+    "CODEC_IO_Write" in wm8994.o [1]                24
+    "AUDIO_IO_Write"                                32
+    "I2Cx_WriteMultiple" in stm32746g_discovery.o [1]
+                                                    48
+    "HAL_I2C_Mem_Write"                             40
+    "I2C_RequestMemoryWrite" in stm32f7xx_hal_i2c.o [1]
+                                                    32
+    "I2C_WaitOnTXISFlagUntilTimeout" in stm32f7xx_hal_i2c.o [1]
+                                                    16
+    "I2C_IsAcknowledgeFailed" in stm32f7xx_hal_i2c.o [1]
+                                                    16
+    "HAL_GetTick"                                    0
+
+Uncalled function
+  "wm8994_ReadID": 0x0800b497
+
+  Maximum call chain                               192 bytes
+
+    "wm8994_ReadID"                                  8
+    "AUDIO_IO_Read"                                 32
+    "I2Cx_ReadMultiple" in stm32746g_discovery.o [1]
+                                                    48
+    "HAL_I2C_Mem_Read"                              40
+    "I2C_RequestMemoryRead" in stm32f7xx_hal_i2c.o [1]
+                                                    32
+    "I2C_WaitOnTXISFlagUntilTimeout" in stm32f7xx_hal_i2c.o [1]
+                                                    16
+    "I2C_IsAcknowledgeFailed" in stm32f7xx_hal_i2c.o [1]
+                                                    16
+    "HAL_GetTick"                                    0
+
+Uncalled function
+  "wm8994_Reset": 0x0800ba61
+
+  Maximum call chain                               224 bytes
+
+    "wm8994_Reset"                                  16
+    "CODEC_IO_Write" in wm8994.o [1]                24
+    "AUDIO_IO_Write"                                32
+    "I2Cx_WriteMultiple" in stm32746g_discovery.o [1]
+                                                    48
+    "HAL_I2C_Mem_Write"                             40
+    "I2C_RequestMemoryWrite" in stm32f7xx_hal_i2c.o [1]
+                                                    32
+    "I2C_WaitOnTXISFlagUntilTimeout" in stm32f7xx_hal_i2c.o [1]
+                                                    16
+    "I2C_IsAcknowledgeFailed" in stm32f7xx_hal_i2c.o [1]
+                                                    16
+    "HAL_GetTick"                                    0
+
+Uncalled function
+  "wm8994_Resume": 0x0800b4f1
+
+  Maximum call chain                               240 bytes
+
+    "wm8994_Resume"                                 16
+    "wm8994_SetMute"                                16
+    "CODEC_IO_Write" in wm8994.o [1]                24
+    "AUDIO_IO_Write"                                32
+    "I2Cx_WriteMultiple" in stm32746g_discovery.o [1]
+                                                    48
+    "HAL_I2C_Mem_Write"                             40
+    "I2C_RequestMemoryWrite" in stm32f7xx_hal_i2c.o [1]
+                                                    32
+    "I2C_WaitOnTXISFlagUntilTimeout" in stm32f7xx_hal_i2c.o [1]
+                                                    16
+    "I2C_IsAcknowledgeFailed" in stm32f7xx_hal_i2c.o [1]
+                                                    16
+    "HAL_GetTick"                                    0
+
+Uncalled function
+  "wm8994_SetFrequency": 0x0800b971
+
+  Maximum call chain                               224 bytes
+
+    "wm8994_SetFrequency"                           16
+    "CODEC_IO_Write" in wm8994.o [1]                24
+    "AUDIO_IO_Write"                                32
+    "I2Cx_WriteMultiple" in stm32746g_discovery.o [1]
+                                                    48
+    "HAL_I2C_Mem_Write"                             40
+    "I2C_RequestMemoryWrite" in stm32f7xx_hal_i2c.o [1]
+                                                    32
+    "I2C_WaitOnTXISFlagUntilTimeout" in stm32f7xx_hal_i2c.o [1]
+                                                    16
+    "I2C_IsAcknowledgeFailed" in stm32f7xx_hal_i2c.o [1]
+                                                    16
+    "HAL_GetTick"                                    0
+
+Uncalled function
+  "wm8994_SetOutputMode": 0x0800b7bd
+
+  Maximum call chain                               224 bytes
+
+    "wm8994_SetOutputMode"                          16
+    "CODEC_IO_Write" in wm8994.o [1]                24
+    "AUDIO_IO_Write"                                32
+    "I2Cx_WriteMultiple" in stm32746g_discovery.o [1]
+                                                    48
+    "HAL_I2C_Mem_Write"                             40
+    "I2C_RequestMemoryWrite" in stm32f7xx_hal_i2c.o [1]
+                                                    32
+    "I2C_WaitOnTXISFlagUntilTimeout" in stm32f7xx_hal_i2c.o [1]
+                                                    16
+    "I2C_IsAcknowledgeFailed" in stm32f7xx_hal_i2c.o [1]
+                                                    16
+    "HAL_GetTick"                                    0
+
+Uncalled function
+  "wm8994_Stop": 0x0800b509
+
+  Maximum call chain                               240 bytes
+
+    "wm8994_Stop"                                   16
+    "wm8994_SetMute"                                16
+    "CODEC_IO_Write" in wm8994.o [1]                24
+    "AUDIO_IO_Write"                                32
+    "I2Cx_WriteMultiple" in stm32746g_discovery.o [1]
+                                                    48
+    "HAL_I2C_Mem_Write"                             40
+    "I2C_RequestMemoryWrite" in stm32f7xx_hal_i2c.o [1]
+                                                    32
+    "I2C_WaitOnTXISFlagUntilTimeout" in stm32f7xx_hal_i2c.o [1]
+                                                    16
+    "I2C_IsAcknowledgeFailed" in stm32f7xx_hal_i2c.o [1]
+                                                    16
+    "HAL_GetTick"                                    0
+
+The following functions make up recursion nest 0, which has no maximum recursion depth specified:
+
+  "collectAtoms": 0x08005049
+
+The following functions perform unknown indirect calls:
+
+  "BSP_AUDIO_OUT_Init": 0x080067bd
+  "BSP_AUDIO_OUT_Play": 0x0800685d
+  "BSP_AUDIO_OUT_Stop": 0x0800689d
+  "HAL_DMA_IRQHandler": 0x08007e77
+  "disk_initialize": 0x08001f17
+  "disk_ioctl": 0x08001fbd
+  "disk_read": 0x08001f4d
+  "disk_status": 0x08001ef5
+  "disk_write": 0x08001f85
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                       ro code  ro data  rw data
+    ------                       -------  -------  -------
+D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj: [1]
+    MPEG.o                         5 344    1 040   47 336
+    diskio.o                         252
+    ff.o                           7 466      144       30
+    ff_gen_drv.o                     112                12
+    main.o                           676       64    2 348
+    my_waveplayer.o                  414        2       13
+    sd_diskio.o                      292       20        1
+    startup_stm32f746xx.o            852
+    stm32746g_discovery.o            824                60
+    stm32746g_discovery_audio.o    1 216               356
+    stm32746g_discovery_lcd.o      1 368    6 844      400
+    stm32746g_discovery_sd.o         864               360
+    stm32746g_discovery_sdram.o      916        1      185
+    stm32f7xx_hal.o                  136                 4
+    stm32f7xx_hal_cortex.o           316
+    stm32f7xx_hal_dma.o            1 008        8
+    stm32f7xx_hal_dma2d.o            994
+    stm32f7xx_hal_gpio.o             616
+    stm32f7xx_hal_i2c.o            1 868
+    stm32f7xx_hal_ltdc.o           1 272
+    stm32f7xx_hal_msp.o              164
+    stm32f7xx_hal_pwr_ex.o           136
+    stm32f7xx_hal_rcc.o            2 220       16
+    stm32f7xx_hal_rcc_ex.o         2 980
+    stm32f7xx_hal_sai.o              976
+    stm32f7xx_hal_sai_ex.o           140
+    stm32f7xx_hal_sd.o             5 184
+    stm32f7xx_hal_sdram.o            172
+    stm32f7xx_hal_tim.o              456
+    stm32f7xx_hal_uart.o           1 798
+    stm32f7xx_it.o                    56
+    stm32f7xx_ll_fmc.o               376
+    stm32f7xx_ll_sdmmc.o             206
+    system_stm32f7xx.o               108        2        4
+    wm8994.o                       3 476       22       56
+    ------------------------------------------------------
+    Total:                        45 254    8 163   51 165
+
+command line: [2]
+    ------------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    abort.o                            6
+    abs.o                              8
+    dlmalloc.o                     5 360               496
+    exit.o                             4
+    low_level_init.o                   4
+    printf.o                          36
+    putchar.o                         12
+    setlocale.o                       20       55      116
+    strncmp.o                         40
+    xencoding_sb.o                    96
+    xfiles.o                                   31      144
+    xgetmemchunk.o                    44                 4
+    xmbcurmax.o                       10
+    xmbtowc.o                         32
+    xprintfsmall.o                 1 988
+    xprout.o                          22
+    xtls.o                             2
+    xwctomb.o                         26
+    ------------------------------------------------------
+    Total:                         7 710       86      760
+
+m7M_tls.a: [4]
+    fpinit_M.o                        34
+    ------------------------------------------------------
+    Total:                            34
+
+rt7M_tl.a: [5]
+    ABImemcpy_unaligned.o            118
+    ABImemset.o                      102
+    cexit.o                           10
+    cmain.o                           26
+    cstartup_M.o                      12
+    data_init.o                       40
+    memchr.o                          88
+    packbits_init_single.o            56
+    strchr.o                          22
+    strlen.o                          54
+    zero_init3.o                      64
+    ------------------------------------------------------
+    Total:                           592
+
+shb_l.a: [6]
+    exit.o                            20
+    ------------------------------------------------------
+    Total:                            20
+
+    Gaps                              26        4
+    Linker created                             32   61 440
+----------------------------------------------------------
+    Grand Total:                  53 636    8 285  113 365
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x0800ec94           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0800ecb4           --   Gb  - Linker created -
+?main                   0x0800ed41          Code  Gb  cmain.o [5]
+APBAHBPrescTable        0x0800eee0    0x10  Data  Gb  stm32f7xx_hal_rcc.o [1]
+AUDIO_IO_DeInit         0x0800bd33     0x2  Code  Gb  stm32746g_discovery.o [1]
+AUDIO_IO_Delay          0x0800bdb7     0xc  Code  Gb  stm32746g_discovery.o [1]
+AUDIO_IO_Init           0x0800bd29     0xa  Code  Gb  stm32746g_discovery.o [1]
+AUDIO_IO_Read           0x0800bd71    0x46  Code  Gb  stm32746g_discovery.o [1]
+AUDIO_IO_Write          0x0800bd35    0x3c  Code  Gb  stm32746g_discovery.o [1]
+ActiveLayer             0x2001bac4     0x4  Data  Lc  stm32746g_discovery_lcd.o [1]
+AudioState              0x2001bada     0x1  Data  Gb  my_waveplayer.o [1]
+BSP_AUDIO_IN_Error_CallBack
+                        0x08006c53     0x2  Code  Wk  stm32746g_discovery_audio.o [1]
+BSP_AUDIO_OUT_ClockConfig
+                        0x08006da9    0x72  Code  Gb  my_waveplayer.o [1]
+BSP_AUDIO_OUT_Error_CallBack
+                        0x0800696f     0x2  Code  Wk  stm32746g_discovery_audio.o [1]
+BSP_AUDIO_OUT_HalfTransfer_CallBack
+                        0x08006d7d    0x10  Code  Gb  my_waveplayer.o [1]
+BSP_AUDIO_OUT_Init      0x080067bd    0xa0  Code  Gb  stm32746g_discovery_audio.o [1]
+BSP_AUDIO_OUT_MspInit   0x08006971   0x1da  Code  Wk  stm32746g_discovery_audio.o [1]
+BSP_AUDIO_OUT_Play      0x0800685d    0x40  Code  Gb  stm32746g_discovery_audio.o [1]
+BSP_AUDIO_OUT_SetAudioFrameSlot
+                        0x080068cd    0x3c  Code  Gb  stm32746g_discovery_audio.o [1]
+BSP_AUDIO_OUT_Stop      0x0800689d    0x30  Code  Gb  stm32746g_discovery_audio.o [1]
+BSP_AUDIO_OUT_TransferComplete_CallBack
+                        0x08006d8d    0x10  Code  Gb  my_waveplayer.o [1]
+BSP_LCD_Clear           0x0800cef3    0x38  Code  Gb  stm32746g_discovery_lcd.o [1]
+BSP_LCD_ClockConfig     0x0800d15b    0x32  Code  Wk  stm32746g_discovery_lcd.o [1]
+BSP_LCD_DisplayOn       0x0800cf49    0x32  Code  Gb  stm32746g_discovery_lcd.o [1]
+BSP_LCD_GetXSize        0x0800cdd9    0x14  Code  Gb  stm32746g_discovery_lcd.o [1]
+BSP_LCD_GetYSize        0x0800cded    0x14  Code  Gb  stm32746g_discovery_lcd.o [1]
+BSP_LCD_Init            0x0800cce1    0xf8  Code  Gb  stm32746g_discovery_lcd.o [1]
+BSP_LCD_LayerDefaultInit
+                        0x0800ce01    0x9a  Code  Gb  stm32746g_discovery_lcd.o [1]
+BSP_LCD_MspInit         0x0800cf7b   0x1e0  Code  Wk  stm32746g_discovery_lcd.o [1]
+BSP_LCD_SelectLayer     0x0800ce9b     0x8  Code  Gb  stm32746g_discovery_lcd.o [1]
+BSP_LCD_SetFont         0x0800cedf    0x14  Code  Gb  stm32746g_discovery_lcd.o [1]
+BSP_LCD_SetLayerWindow  0x0800cea3    0x3c  Code  Gb  stm32746g_discovery_lcd.o [1]
+BSP_SDRAM_Init          0x0800d731    0xd6  Code  Gb  stm32746g_discovery_sdram.o [1]
+BSP_SDRAM_Initialization_sequence
+                        0x0800d807    0xb8  Code  Gb  stm32746g_discovery_sdram.o [1]
+BSP_SDRAM_MspInit       0x0800d8bf   0x1c8  Code  Wk  stm32746g_discovery_sdram.o [1]
+BSP_SD_Detect_MspInit   0x0800e3a3    0x42  Code  Wk  stm32746g_discovery_sd.o [1]
+BSP_SD_GetCardInfo      0x0800e3ef     0xe  Code  Gb  stm32746g_discovery_sd.o [1]
+BSP_SD_GetStatus        0x0800e3e5     0xa  Code  Gb  stm32746g_discovery_sd.o [1]
+BSP_SD_Init             0x0800e0cd    0x98  Code  Gb  stm32746g_discovery_sd.o [1]
+BSP_SD_IsDetected       0x0800e165    0x24  Code  Gb  stm32746g_discovery_sd.o [1]
+BSP_SD_MspInit          0x0800e1ed   0x1b6  Code  Wk  stm32746g_discovery_sd.o [1]
+BSP_SD_ReadBlocks       0x0800e189    0x32  Code  Gb  stm32746g_discovery_sd.o [1]
+BSP_SD_WriteBlocks      0x0800e1bb    0x32  Code  Gb  stm32746g_discovery_sd.o [1]
+BufferCtl               0x2001ba9c     0x8  Data  Lc  my_waveplayer.o [1]
+BusFault_Handler        0x0800eb5b     0x2  Code  Gb  stm32f7xx_it.o [1]
+CODEC_IO_Write          0x0800ba91    0x20  Code  Lc  wm8994.o [1]
+CPU_CACHE_Enable        0x0800e65f     0xc  Code  Lc  main.o [1]
+CSTACK$$Base            0x20000130           --   Gb  - Linker created -
+CSTACK$$Limit           0x20006130           --   Gb  - Linker created -
+Command                 0x2001ba80    0x10  Data  Lc  stm32746g_discovery_sdram.o [1]
+DMA2D_SetConfig         0x0800dda5   0x102  Code  Lc  stm32f7xx_hal_dma2d.o [1]
+DMA2_Stream4_IRQHandler
+                        0x0800eb6d     0xc  Code  Gb  stm32f7xx_it.o [1]
+DMA2_Stream7_IRQHandler
+                        0x0800eb79     0xc  Code  Gb  stm32f7xx_it.o [1]
+DMA_CalcBaseAndBitshift
+                        0x08008053    0x2e  Code  Lc  stm32f7xx_hal_dma.o [1]
+DMA_SetConfig           0x08007ca1    0x2e  Code  Lc  stm32f7xx_hal_dma.o [1]
+DebugMon_Handler        0x0800eb61     0x2  Code  Gb  stm32f7xx_it.o [1]
+DrawProp                0x2001ba50    0x18  Data  Lc  stm32746g_discovery_lcd.o [1]
+ExCvt                   0x0800e9ec    0x80  Data  Lc  ff.o [1]
+FATFS_LinkDriver        0x0800e729    0x12  Code  Gb  ff_gen_drv.o [1]
+FATFS_LinkDriverEx      0x0800e6d1    0x58  Code  Gb  ff_gen_drv.o [1]
+FMC_SDRAM_Init          0x0800df55    0x7c  Code  Gb  stm32f7xx_ll_fmc.o [1]
+FMC_SDRAM_ProgramRefreshRate
+                        0x0800e0bf     0xe  Code  Gb  stm32f7xx_ll_fmc.o [1]
+FMC_SDRAM_SendCommand   0x0800e06f    0x50  Code  Gb  stm32f7xx_ll_fmc.o [1]
+FMC_SDRAM_Timing_Init   0x0800dfd1    0x9e  Code  Gb  stm32f7xx_ll_fmc.o [1]
+FatFs                   0x2001baa4     0x4  Data  Lc  ff.o [1]
+Files                   0x2001ba38    0x18  Data  Lc  ff.o [1]
+Font24                  0x20000038     0x8  Data  Gb  stm32746g_discovery_lcd.o [1]
+Font24_Table            0x08001ff0  0x1ab8  Data  Gb  stm32746g_discovery_lcd.o [1]
+Fsid                    0x2001bad8     0x2  Data  Lc  ff.o [1]
+HAL_DMA2D_ConfigLayer   0x0800dc87   0x11a  Code  Gb  stm32f7xx_hal_dma2d.o [1]
+HAL_DMA2D_Init          0x0800dac5    0x6c  Code  Gb  stm32f7xx_hal_dma2d.o [1]
+HAL_DMA2D_MspInit       0x0800db31     0x2  Code  Wk  stm32f7xx_hal_dma2d.o [1]
+HAL_DMA2D_PollForTransfer
+                        0x0800db8b    0xfc  Code  Gb  stm32f7xx_hal_dma2d.o [1]
+HAL_DMA2D_Start         0x0800db33    0x58  Code  Gb  stm32f7xx_hal_dma2d.o [1]
+HAL_DMA_Abort           0x08007e23    0x54  Code  Gb  stm32f7xx_hal_dma.o [1]
+HAL_DMA_DeInit          0x08007d55    0x6c  Code  Gb  stm32f7xx_hal_dma.o [1]
+HAL_DMA_IRQHandler      0x08007e77   0x1dc  Code  Gb  stm32f7xx_hal_dma.o [1]
+HAL_DMA_Init            0x08007ccf    0x86  Code  Gb  stm32f7xx_hal_dma.o [1]
+HAL_DMA_Start_IT        0x08007dc1    0x62  Code  Gb  stm32f7xx_hal_dma.o [1]
+HAL_Delay               0x08006e81    0x1a  Code  Wk  stm32f7xx_hal.o [1]
+HAL_GPIO_Init           0x08007a39   0x1fc  Code  Gb  stm32f7xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin        0x08007c35    0x18  Code  Gb  stm32f7xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x08007c4d    0x14  Code  Gb  stm32f7xx_hal_gpio.o [1]
+HAL_GetTick             0x08006e7b     0x6  Code  Wk  stm32f7xx_hal.o [1]
+HAL_I2C_DeInit          0x0800bea5    0x38  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_GetState        0x0800c215     0x6  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_Init            0x0800bde9    0xbc  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_Mem_Read        0x0800c079   0x196  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_Mem_Write       0x0800bee1   0x198  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_MspDeInit       0x0800bedf     0x2  Code  Wk  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_MspInit         0x0800bedd     0x2  Code  Wk  stm32f7xx_hal_i2c.o [1]
+HAL_IncTick             0x08006e6f     0xc  Code  Wk  stm32f7xx_hal.o [1]
+HAL_Init                0x08006e1d    0x22  Code  Gb  stm32f7xx_hal.o [1]
+HAL_InitTick            0x08006e4b    0x24  Code  Wk  stm32f7xx_hal.o [1]
+HAL_LTDC_ConfigLayer    0x0800d375    0x50  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_GetState       0x0800d4a9     0x6  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_Init           0x0800d239   0x13a  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_MspInit        0x0800d373     0x2  Code  Wk  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_SetWindowPosition
+                        0x0800d43d    0x6c  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_SetWindowSize  0x0800d3c5    0x78  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_MspInit             0x08006e3f     0xc  Code  Wk  stm32f7xx_hal.o [1]
+HAL_NVIC_EnableIRQ      0x08008193     0xe  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x0800816d    0x26  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x08008161     0xc  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_PWREx_EnableOverDrive
+                        0x0800e741    0x7a  Code  Gb  stm32f7xx_hal_pwr_ex.o [1]
+HAL_RCCEx_GetPeriphCLKConfig
+                        0x08008993   0x1d8  Code  Gb  stm32f7xx_hal_rcc_ex.o [1]
+HAL_RCCEx_GetPeriphCLKFreq
+                        0x08008b6b   0x1c4  Code  Gb  stm32f7xx_hal_rcc_ex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                        0x080081cd   0x7c6  Code  Gb  stm32f7xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig     0x08009287   0x256  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x08009581    0x28  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq    0x080095a9    0x20  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq    0x080095c9    0x20  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x080094dd    0xa4  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x08008d71   0x516  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_SAI_DMAStop         0x0800782f    0x60  Code  Gb  stm32f7xx_hal_sai.o [1]
+HAL_SAI_DeInit          0x080077dd    0x4e  Code  Gb  stm32f7xx_hal_sai.o [1]
+HAL_SAI_ErrorCallback   0x0800691d    0x52  Code  Gb  stm32746g_discovery_audio.o [1]
+HAL_SAI_GetState        0x08007945     0x6  Code  Gb  stm32f7xx_hal_sai.o [1]
+HAL_SAI_Init            0x08007669   0x168  Code  Gb  stm32f7xx_hal_sai.o [1]
+HAL_SAI_MspDeInit       0x0800782d     0x2  Code  Wk  stm32f7xx_hal_sai.o [1]
+HAL_SAI_MspInit         0x0800782b     0x2  Code  Wk  stm32f7xx_hal_sai.o [1]
+HAL_SAI_Transmit_DMA    0x0800788f    0xb6  Code  Gb  stm32f7xx_hal_sai.o [1]
+HAL_SAI_TxCpltCallback  0x08006909     0xa  Code  Gb  stm32746g_discovery_audio.o [1]
+HAL_SAI_TxHalfCpltCallback
+                        0x08006913     0xa  Code  Gb  stm32746g_discovery_audio.o [1]
+HAL_SDRAM_Init          0x0800dea9    0x44  Code  Gb  stm32f7xx_hal_sdram.o [1]
+HAL_SDRAM_MspInit       0x0800deed     0x2  Code  Wk  stm32f7xx_hal_sdram.o [1]
+HAL_SDRAM_ProgramRefreshRate
+                        0x0800df2b    0x2a  Code  Gb  stm32f7xx_hal_sdram.o [1]
+HAL_SDRAM_SendCommand   0x0800deef    0x3c  Code  Gb  stm32f7xx_hal_sdram.o [1]
+HAL_SD_GetStatus        0x0800a17f    0x26  Code  Gb  stm32f7xx_hal_sd.o [1]
+HAL_SD_Get_CardInfo     0x08009d55   0x360  Code  Gb  stm32f7xx_hal_sd.o [1]
+HAL_SD_Init             0x0800980d    0xb6  Code  Gb  stm32f7xx_hal_sd.o [1]
+HAL_SD_MspInit          0x080098c3     0x2  Code  Wk  stm32f7xx_hal_sd.o [1]
+HAL_SD_ReadBlocks       0x080098c5   0x1f6  Code  Gb  stm32f7xx_hal_sd.o [1]
+HAL_SD_StopTransfer     0x0800a147    0x38  Code  Gb  stm32f7xx_hal_sd.o [1]
+HAL_SD_WideBusOperation_Config
+                        0x0800a0b5    0x92  Code  Gb  stm32f7xx_hal_sd.o [1]
+HAL_SD_WriteBlocks      0x08009abb   0x29a  Code  Gb  stm32f7xx_hal_sd.o [1]
+HAL_SYSTICK_Config      0x080081a1     0xc  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_TIM_Base_DeInit     0x08006627    0x44  Code  Gb  stm32f7xx_hal_tim.o [1]
+HAL_TIM_Base_Init       0x080065f5    0x32  Code  Gb  stm32f7xx_hal_tim.o [1]
+HAL_TIM_Base_MspDeInit  0x0800666d     0x2  Code  Wk  stm32f7xx_hal_tim.o [1]
+HAL_TIM_Base_MspInit    0x0800666b     0x2  Code  Wk  stm32f7xx_hal_tim.o [1]
+HAL_TIM_Base_Start      0x0800666f    0x1e  Code  Gb  stm32f7xx_hal_tim.o [1]
+HAL_TIM_Base_Start_IT   0x0800668d    0x1e  Code  Gb  stm32f7xx_hal_tim.o [1]
+HAL_UART_Init           0x0800c535    0x7e  Code  Gb  stm32f7xx_hal_uart.o [1]
+HAL_UART_MspInit        0x0800cc3d    0x98  Code  Gb  stm32f7xx_hal_msp.o [1]
+HAL_UART_Transmit       0x0800c5b3    0xe8  Code  Gb  stm32f7xx_hal_uart.o [1]
+HEAP$$Base              0x20006130           --   Gb  - Linker created -
+HEAP$$Limit             0x2000f130           --   Gb  - Linker created -
+HardFault_Handler       0x0800eb57     0x2  Code  Gb  stm32f7xx_it.o [1]
+I2C_IsAcknowledgeFailed
+                        0x0800c47f    0x80  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_RequestMemoryRead   0x0800c2b5    0x98  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_RequestMemoryWrite  0x0800c21b    0x9a  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_TransferConfig      0x0800c4ff    0x2a  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_WaitOnFlagUntilTimeout
+                        0x0800c34d    0x8e  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_WaitOnSTOPFlagUntilTimeout
+                        0x0800c42f    0x50  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_WaitOnTXISFlagUntilTimeout
+                        0x0800c3db    0x54  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2Cx_Error              0x0800bd15    0x14  Code  Lc  stm32746g_discovery.o [1]
+I2Cx_Init               0x0800bc15    0x48  Code  Lc  stm32746g_discovery.o [1]
+I2Cx_MspInit            0x0800bab1   0x164  Code  Lc  stm32746g_discovery.o [1]
+I2Cx_ReadMultiple       0x0800bc5d    0x5c  Code  Lc  stm32746g_discovery.o [1]
+I2Cx_WriteMultiple      0x0800bcb9    0x5c  Code  Lc  stm32746g_discovery.o [1]
+JPG_File                0x2001a714   0x22c  Data  Gb  main.o [1]
+LCD_Config              0x0800e589    0x36  Code  Lc  main.o [1]
+LL_FillBuffer           0x0800d18d    0x7c  Code  Lc  stm32746g_discovery_lcd.o [1]
+LTDC_SetConfig          0x0800d4af   0x276  Code  Lc  stm32f7xx_hal_ltdc.o [1]
+LoadInt                 0x080072d5    0x4c  Code  Lc  xprintfsmall.o [3]
+MOV_File                0x2001a4e8   0x22c  Data  Gb  main.o [1]
+MemManage_Handler       0x0800eb59     0x2  Code  Gb  stm32f7xx_it.o [1]
+NMI_Handler             0x0800eb55     0x2  Code  Gb  stm32f7xx_it.o [1]
+NVIC_EnableIRQ          0x080080b9    0x14  Code  Lc  stm32f7xx_hal_cortex.o [1]
+NVIC_EncodePriority     0x080080f3    0x3e  Code  Lc  stm32f7xx_hal_cortex.o [1]
+NVIC_GetPriorityGrouping
+                        0x080080af     0xa  Code  Lc  stm32f7xx_hal_cortex.o [1]
+NVIC_SetPriority        0x080080cd    0x26  Code  Lc  stm32f7xx_hal_cortex.o [1]
+NVIC_SetPriorityGrouping
+                        0x08008091    0x1e  Code  Lc  stm32f7xx_hal_cortex.o [1]
+PendSV_Handler          0x0800eb63     0x2  Code  Gb  stm32f7xx_it.o [1]
+Play_MOV                0x0800580d   0xb94  Code  Gb  MPEG.o [1]
+Play_WAV                0x08006c7d    0xdc  Code  Gb  my_waveplayer.o [1]
+PlayerInit              0x08006d59    0x24  Code  Gb  my_waveplayer.o [1]
+Region$$Table$$Base     0x0800ec94           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0800ecb4           --   Gb  - Linker created -
+SAI_BlockSynchroConfig  0x08009709    0x4c  Code  Gb  stm32f7xx_hal_sai_ex.o [1]
+SAI_DMAError            0x08007a19    0x20  Code  Lc  stm32f7xx_hal_sai.o [1]
+SAI_DMATxCplt           0x080079c5    0x42  Code  Lc  stm32f7xx_hal_sai.o [1]
+SAI_DMATxHalfCplt       0x08007a09     0xe  Code  Lc  stm32f7xx_hal_sai.o [1]
+SAI_Disable             0x08007985    0x40  Code  Lc  stm32f7xx_hal_sai.o [1]
+SAI_GetInputClock       0x08009755    0x30  Code  Gb  stm32f7xx_hal_sai_ex.o [1]
+SAI_InterruptFlag       0x0800794b    0x3a  Code  Lc  stm32f7xx_hal_sai.o [1]
+SAIx_Out_DeInit         0x08006c29    0x2a  Code  Lc  stm32746g_discovery_audio.o [1]
+SAIx_Out_Init           0x08006b4b    0xde  Code  Lc  stm32746g_discovery_audio.o [1]
+SCB_EnableDCache        0x0800e457    0x5a  Code  Lc  main.o [1]
+SCB_EnableICache        0x0800e42d    0x2a  Code  Lc  main.o [1]
+SDFatFs                 0x20019598   0x230  Data  Gb  main.o [1]
+SDMMC_DataConfig        0x0800aced    0x2e  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_GetCommandResponse
+                        0x0800accf     0x6  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_GetPowerState     0x0800ac9d     0x8  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_GetResponse       0x0800acd5    0x18  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_Init              0x0800ac4d    0x2e  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_PowerState_ON     0x0800ac93     0xa  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_ReadFIFO          0x0800ac81     0x6  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_SendCommand       0x0800aca5    0x2a  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDMMC_WriteFIFO         0x0800ac87     0xc  Code  Gb  stm32f7xx_ll_sdmmc.o [1]
+SDPath                  0x2001baa8     0x4  Data  Gb  main.o [1]
+SD_CmdError             0x0800a50b    0x4a  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_CmdResp1Error        0x0800a5c9   0x116  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_CmdResp2Error        0x0800a711    0x46  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_CmdResp3Error        0x0800a6e1    0x30  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_CmdResp6Error        0x0800a757    0xa6  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_CmdResp7Error        0x0800a555    0x74  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_Driver               0x0800ee2c    0x14  Data  Gb  sd_diskio.o [1]
+SD_FindSCR              0x0800a961   0x176  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_GetState             0x0800a1a5    0x24  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_Initialize_Cards     0x0800a1c9   0x128  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_IsCardProgramming    0x0800aad7   0x16c  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_PowerON              0x0800a32b   0x180  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_Select_Deselect      0x0800a2f1    0x3a  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_SendStatus           0x0800a4ab    0x60  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_WideBus_Disable      0x0800a8af    0xb2  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_WideBus_Enable       0x0800a7fd    0xb2  Code  Lc  stm32f7xx_hal_sd.o [1]
+SD_initialize           0x0800e7c9    0x24  Code  Gb  sd_diskio.o [1]
+SD_ioctl                0x0800e87d    0x6a  Code  Gb  sd_diskio.o [1]
+SD_read                 0x0800e811    0x36  Code  Gb  sd_diskio.o [1]
+SD_status               0x0800e7ed    0x24  Code  Gb  sd_diskio.o [1]
+SD_write                0x0800e847    0x36  Code  Gb  sd_diskio.o [1]
+SVC_Handler             0x0800eb5f     0x2  Code  Gb  stm32f7xx_it.o [1]
+Stat                    0x20000128     0x1  Data  Lc  sd_diskio.o [1]
+SysTick_Config          0x08008131    0x30  Code  Lc  stm32f7xx_hal_cortex.o [1]
+SysTick_Handler         0x0800eb65     0x8  Code  Gb  stm32f7xx_it.o [1]
+SystemClock_Config      0x0800e5bf    0xa0  Code  Lc  main.o [1]
+SystemCoreClock         0x20000040     0x4  Data  Gb  system_stm32f7xx.o [1]
+SystemInit              0x0800ea6d    0x4c  Code  Gb  system_stm32f7xx.o [1]
+TIM_Base_SetConfig      0x080066ab    0xe6  Code  Gb  stm32f7xx_hal_tim.o [1]
+Timing                  0x2001ba1c    0x1c  Data  Lc  stm32746g_discovery_sdram.o [1]
+UART_AdvFeatureConfig   0x0800cb09    0xda  Code  Gb  stm32f7xx_hal_uart.o [1]
+UART_CheckIdleState     0x0800cbe3    0x58  Code  Gb  stm32f7xx_hal_uart.o [1]
+UART_SetConfig          0x0800c77b   0x35c  Code  Gb  stm32f7xx_hal_uart.o [1]
+UART_WaitOnFlagUntilTimeout
+                        0x0800c69b    0xde  Code  Gb  stm32f7xx_hal_uart.o [1]
+UartHandle              0x2001b5d0    0x70  Data  Gb  main.o [1]
+UsageFault_Handler      0x0800eb5d     0x2  Code  Gb  stm32f7xx_it.o [1]
+WAV_File                0x2001a940   0x22c  Data  Gb  main.o [1]
+_EncodingSb_Mbtowc      0x080097c3    0x30  Code  Gb  xencoding_sb.o [3]
+_EncodingSb_Wctomb      0x080097a9    0x1a  Code  Gb  xencoding_sb.o [3]
+_IsdstStr               0x200000b8     0x4  Data  Gb  setlocale.o [3]
+_LitobSmall             0x08007553    0xce  Code  Lc  xprintfsmall.o [3]
+_LocaleEncoding         0x08009795     0xe  Code  Gb  setlocale.o [3]
+_LocaleReturnString     0x200000d8    0x50  Data  Lc  setlocale.o [3]
+_Locale_Profile         0x200000bc    0x1c  Data  Gb  setlocale.o [3]
+_Mbtowc                 0x0800961d    0x20  Code  Gb  xmbtowc.o [3]
+_PrintfSmall            0x08006ea5   0x430  Code  Gb  xprintfsmall.o [3]
+_Prout                  0x0800edb9    0x16  Code  Gb  xprout.o [3]
+_PutcharsSmall          0x08007621    0x2e  Code  Lc  xprintfsmall.o [3]
+_PutstrSmall            0x08007321   0x228  Code  Lc  xprintfsmall.o [3]
+_TzoneStr               0x200000b4     0x4  Data  Gb  setlocale.o [3]
+_Wctomb                 0x080096ef    0x1a  Code  Gb  xwctomb.o [3]
+__aeabi_memset          0x080064c1          Code  Gb  ABImemset.o [5]
+__cmain                 0x0800ed41          Code  Gb  cmain.o [5]
+__data_GetMemChunk      0x08004fa1    0x2c  Code  Gb  xgetmemchunk.o [3]
+__exit                  0x08004fcd    0x14  Code  Gb  exit.o [6]
+__iar_Mbcurmax          0x080096e5     0xa  Code  Gb  xmbcurmax.o [3]
+__iar_Memchr            0x0800968d          Code  Gb  memchr.o [5]
+__iar_Memset            0x080064c1          Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x080064c9          Code  Gb  ABImemset.o [5]
+__iar_Stdout            0x20000074    0x40  Data  Gb  xfiles.o [3]
+__iar_Strchr            0x0800963d          Code  Gb  strchr.o [5]
+__iar_data_init3        0x0800ec25    0x28  Code  Gb  data_init.o [5]
+__iar_dlfree            0x08004a7f   0x510  Code  Gb  dlmalloc.o [3]
+__iar_dlib_perthread_access
+                        0x08009809     0x2  Code  Gb  xtls.o [3]
+__iar_dlmalloc          0x080047c9   0x2aa  Code  Gb  dlmalloc.o [3]
+__iar_init_vfp          0x0800ec71          Code  Gb  fpinit_M.o [4]
+__iar_packbits_init_single3
+                        0x0800eb8d    0x38  Code  Gb  packbits_init_single.o [5]
+__iar_program_start     0x0800ef9d          Code  Gb  cstartup_M.o [5]
+__iar_unaligned___aeabi_memcpy
+                        0x08006575          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x08006595          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x08006595          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_zero_init3        0x0800ead9    0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0800ed5b     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000          Data  Gb  startup_stm32f746xx.o [1]
+_call_main              0x0800ed4d          Code  Gb  cmain.o [5]
+_exit                   0x0800ed65          Code  Gb  cexit.o [5]
+_gm_                    0x2001b1c4   0x1d8  Data  Lc  dlmalloc.o [3]
+_main                   0x0800ed57          Code  Gb  cmain.o [5]
+abort                   0x08004f99     0x6  Code  Gb  abort.o [3]
+abs                     0x080065eb     0x8  Code  Gb  abs.o [3]
+atomHasChild            0x20000000    0x34  Data  Lc  MPEG.o [1]
+atomTypeString          0x0800e8ec   0x100  Data  Lc  MPEG.o [1]
+atombuf                 0x2001afc4   0x200  Data  Gb  MPEG.o [1]
+audio_drv               0x2001bac0     0x4  Data  Gb  stm32746g_discovery_audio.o [1]
+b2l                     0x08005021    0x28  Code  Gb  MPEG.o [1]
+check_fs                0x08001039    0x82  Code  Lc  ff.o [1]
+chk_chr                 0x0800021f    0x14  Code  Lc  ff.o [1]
+chk_lock                0x08000233    0x90  Code  Lc  ff.o [1]
+clear_lock              0x0800041d    0x2c  Code  Lc  ff.o [1]
+clmt_clust              0x08000a1b    0x3e  Code  Lc  ff.o [1]
+clust2sect              0x080005e5    0x20  Code  Gb  ff.o [1]
+collectAtoms            0x08005049   0x5ca  Code  Gb  MPEG.o [1]
+create_chain            0x0800091d    0xfe  Code  Lc  ff.o [1]
+create_name             0x08000e1f   0x12e  Code  Lc  ff.o [1]
+dac_intr                0x2001ba00    0x1c  Data  Gb  MPEG.o [1]
+dec_lock                0x080003c7    0x56  Code  Lc  ff.o [1]
+dir_alloc               0x08000cad    0x6e  Code  Lc  ff.o [1]
+dir_find                0x08000d5d    0x70  Code  Lc  ff.o [1]
+dir_next                0x08000b35   0x178  Code  Lc  ff.o [1]
+dir_register            0x08000dcd    0x52  Code  Lc  ff.o [1]
+dir_sdi                 0x08000a59    0xdc  Code  Lc  ff.o [1]
+disk                    0x2001ba90     0xc  Data  Gb  ff_gen_drv.o [1]
+disk_initialize         0x08001f17    0x36  Code  Gb  diskio.o [1]
+disk_ioctl              0x08001fbd    0x2c  Code  Gb  diskio.o [1]
+disk_read               0x08001f4d    0x38  Code  Gb  diskio.o [1]
+disk_status             0x08001ef5    0x22  Code  Gb  diskio.o [1]
+disk_write              0x08001f85    0x38  Code  Gb  diskio.o [1]
+enq_lock                0x080002c3    0x26  Code  Lc  ff.o [1]
+exit                    0x0800ed5f     0x4  Code  Gb  exit.o [3]
+f_close                 0x08001b03    0x3c  Code  Gb  ff.o [1]
+f_lseek                 0x08001b3f   0x3b4  Code  Gb  ff.o [1]
+f_mount                 0x08001551    0x6a  Code  Gb  ff.o [1]
+f_open                  0x080015d9   0x1fc  Code  Gb  ff.o [1]
+f_read                  0x080017d5   0x252  Code  Gb  ff.o [1]
+f_sync                  0x08001a27    0xdc  Code  Gb  ff.o [1]
+find_volume             0x080010bb   0x450  Code  Lc  ff.o [1]
+follow_path             0x08000f4d    0x9c  Code  Lc  ff.o [1]
+fp_global               0x2001ab6c   0x22c  Data  Gb  MPEG.o [1]
+fputc                   0x0800e66b    0x18  Code  Gb  main.o [1]
+frame_buffer            0x2000f130  0xa000  Data  Gb  MPEG.o [1]
+getAtomSize             0x08004fff     0x8  Code  Lc  MPEG.o [1]
+getSampleSize           0x08005007    0x1a  Code  Lc  MPEG.o [1]
+getVideoSampleTime      0x08005613    0x6e  Code  Lc  MPEG.o [1]
+get_fat                 0x08000605   0x11c  Code  Gb  ff.o [1]
+get_fattime             0x08001fed     0x4  Code  Wk  diskio.o [1]
+get_ldnumber            0x08000fe9    0x50  Code  Lc  ff.o [1]
+hDma2dHandler           0x2001b908    0x40  Data  Lc  stm32746g_discovery_lcd.o [1]
+hI2cAudioHandler        0x2001b948    0x3c  Data  Lc  stm32746g_discovery.o [1]
+hLtdcHandler            0x2001b39c    0xa8  Data  Lc  stm32746g_discovery_lcd.o [1]
+haudio_in_sai           0x2001b4c8    0x84  Data  Gb  stm32746g_discovery_audio.o [1]
+haudio_out_sai          0x2001b444    0x84  Data  Gb  stm32746g_discovery_audio.o [1]
+inc_lock                0x080002e9    0xde  Code  Lc  ff.o [1]
+info                    0x2001baac     0x4  Data  Gb  main.o [1]
+init_mparams            0x08003ac3    0x32  Code  Lc  dlmalloc.o [3]
+init_top                0x08003af5    0x34  Code  Lc  dlmalloc.o [3]
+inputEnabled            0x2001bad0     0x4  Data  Lc  wm8994.o [1]
+ld_clust                0x08000d1b    0x2a  Code  Lc  ff.o [1]
+main                    0x0800e4b1    0xd8  Code  Gb  main.o [1]
+media                   0x2001b640    0x60  Data  Gb  MPEG.o [1]
+mem_cmp                 0x080001fb    0x24  Code  Lc  ff.o [1]
+mem_cpy                 0x080001c9    0x1c  Code  Lc  ff.o [1]
+mem_set                 0x080001e5    0x16  Code  Lc  ff.o [1]
+memchr                  0x0800968d          Code  Gb  memchr.o [5]
+move_window             0x080004b5    0x44  Code  Lc  ff.o [1]
+mparams                 0x2001ba68    0x18  Data  Lc  dlmalloc.o [3]
+obuf                    0x2001b8b8    0x50  Data  Lc  xfiles.o [3]
+outputEnabled           0x2001bacc     0x4  Data  Lc  wm8994.o [1]
+prepend_alloc           0x08003b29   0x36c  Code  Lc  dlmalloc.o [3]
+printf                  0x08006529    0x24  Code  Gb  printf.o [3]
+ps_src                  0x2001b9e0    0x20  Data  Gb  MPEG.o [1]
+put_fat                 0x08000721   0x178  Code  Gb  ff.o [1]
+putchar                 0x0800edd1     0xc  Code  Gb  putchar.o [3]
+pv_src                  0x2001b9b8    0x28  Data  Gb  MPEG.o [1]
+read_file               0x08004fe1    0x1e  Code  Lc  MPEG.o [1]
+remove_chain            0x08000899    0x84  Code  Lc  ff.o [1]
+sdramHandle             0x2001b984    0x34  Data  Lc  stm32746g_discovery_sdram.o [1]
+segment_holding         0x08003aa9    0x1a  Code  Lc  dlmalloc.o [3]
+setStrSec               0x08005681    0xf2  Code  Gb  MPEG.o [1]
+sound_stco              0x20019c28   0x230  Data  Gb  MPEG.o [1]
+sound_stsc              0x200199f8   0x230  Data  Gb  MPEG.o [1]
+sound_stsz              0x20019130   0x234  Data  Gb  MPEG.o [1]
+sound_stts              0x200197c8   0x230  Data  Gb  MPEG.o [1]
+st_clust                0x08000d45    0x18  Code  Lc  ff.o [1]
+strchr                  0x0800963d          Code  Gb  strchr.o [5]
+strlen                  0x08009655          Code  Gb  strlen.o [5]
+strncmp                 0x0800654d    0x28  Code  Gb  strncmp.o [3]
+sync_fs                 0x080004f9    0xec  Code  Lc  ff.o [1]
+sync_window             0x0800044d    0x68  Code  Lc  ff.o [1]
+sys_alloc               0x08003e95   0x386  Code  Lc  dlmalloc.o [3]
+tmalloc_large           0x08004229   0x390  Code  Lc  dlmalloc.o [3]
+tmalloc_small           0x080045b9   0x210  Code  Lc  dlmalloc.o [3]
+uSdCardInfo             0x2001b758    0x58  Data  Lc  stm32746g_discovery_sd.o [1]
+uSdHandle               0x2001b6a0    0x60  Data  Lc  stm32746g_discovery_sd.o [1]
+uwTick                  0x2001bac8     0x4  Data  Lc  stm32f7xx_hal.o [1]
+uwVolume                0x20000034     0x4  Data  Lc  my_waveplayer.o [1]
+validate                0x0800150b    0x46  Code  Lc  ff.o [1]
+video_stco              0x2001a2b8   0x230  Data  Gb  MPEG.o [1]
+video_stsc              0x2001a088   0x230  Data  Gb  MPEG.o [1]
+video_stsz              0x20019364   0x234  Data  Gb  MPEG.o [1]
+video_stts              0x20019e58   0x230  Data  Gb  MPEG.o [1]
+wm8994_DeInit           0x0800b48f     0x8  Code  Gb  wm8994.o [1]
+wm8994_Init             0x0800ad1d   0x772  Code  Gb  wm8994.o [1]
+wm8994_Pause            0x0800b4c7    0x2a  Code  Gb  wm8994.o [1]
+wm8994_Play             0x0800b4ab    0x1c  Code  Gb  wm8994.o [1]
+wm8994_ReadID           0x0800b497    0x14  Code  Gb  wm8994.o [1]
+wm8994_Reset            0x0800ba61    0x24  Code  Gb  wm8994.o [1]
+wm8994_Resume           0x0800b4f1    0x18  Code  Gb  wm8994.o [1]
+wm8994_SetFrequency     0x0800b971    0xf0  Code  Gb  wm8994.o [1]
+wm8994_SetMute          0x0800b74f    0x6e  Code  Gb  wm8994.o [1]
+wm8994_SetOutputMode    0x0800b7bd   0x1b4  Code  Gb  wm8994.o [1]
+wm8994_SetVolume        0x0800b5ad   0x1a2  Code  Gb  wm8994.o [1]
+wm8994_Stop             0x0800b509    0xa4  Code  Gb  wm8994.o [1]
+wm8994_drv              0x20000044    0x30  Data  Gb  wm8994.o [1]
+
+
+[1] = D:\MyWORK\STM32_DENKOV\CUBE\STM32Cube_FW_F7_V1.3.0\Projects\STM32746G-Discovery\Applications\LibJPEG\LibJPEG_Decoding\EWARM\STM32746G-DISCOVERY\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+   53 636 bytes of readonly  code memory
+    8 285 bytes of readonly  data memory
+  113 365 bytes of readwrite data memory
+
+Errors: none
+Warnings: 2
